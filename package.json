@@ -1,0 +1,10 @@
+{
+  "name": "clarity",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=apps/api",
+    "test:api": "npm run test --workspace=apps/api",
+    "build:api": "npm run build --workspace=apps/api"
+  }
+}
